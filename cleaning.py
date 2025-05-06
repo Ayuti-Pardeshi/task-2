@@ -4,7 +4,7 @@ import re
 # Load JSON data
 with open("chat_history.json", "r") as file:
     chat_data = json.load(file)
-
+#steps Explained all below
 # Step 1: Extract human (user) messages
 cleaned_conversations = []
 for client_id, messages in chat_data.items():
