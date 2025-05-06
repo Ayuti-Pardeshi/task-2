@@ -6,7 +6,7 @@ import pandas as pd
 from collections import Counter
 from transformers import pipeline
 import os
-
+# Every steps explained below using comments
 # Suppress the Symlink Warning
 os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
 
